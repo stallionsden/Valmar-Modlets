@@ -1,0 +1,507 @@
+<stallionsden>
+<append xpath="/items">
+<!-- Ammo Dismantling -->
+<!-- 9mm -->
+<item name="dismantle9mmBall">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle9mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="9mmBallDismantle" />
+    </property>
+</item>
+<item name="dismantle9mmBallBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle9mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="9mmBallBundleDismantle" />
+    </property>
+</item>
+<item name="dismantle9mmHP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle9mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="9mmHPDismantle" />
+    </property>
+</item>
+<item name="dismantle9mmHPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle9mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="9mmHPBundleDismantle" />
+    </property>
+</item>
+<item name="dismantle9mmAP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle9mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="9mmAPDismantle" />
+    </property>
+</item>
+<item name="dismantle9mmAPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle9mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="9mmAPBundleDismantle" />
+    </property>
+</item>
+<!-- 9mm -->
+<!-- 44 Magnum -->
+<item name="dismantle44MagBall">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle44MagBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="44MagBallDismantle" />
+    </property>
+</item>
+<item name="dismantle44MagBallBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle44MagBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="44MagBallBundleDismantle" />
+    </property>
+</item>
+<item name="dismantle44MagHP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle44MagBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="44MagHPDismantle" />
+    </property>
+</item>
+<item name="dismantle44MagHPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle44MagBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="44MagHPBundleDismantle" />
+    </property>
+</item>
+<item name="dismantle44MagAP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle44MagBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="44MagAPDismantle" />
+    </property>
+</item>
+<item name="dismantle44MagAPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle44MagBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="44MagAPBundleDismantle" />
+    </property>
+</item>
+<!-- 44 Magnum -->
+<!-- 7.62mm -->
+<item name="dismantle762mmBall">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle762mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="762mmBallDismantle" />
+    </property>
+</item>
+<item name="dismantle762mmBallBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle762mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="762mmBallBundleDismantle" />
+    </property>
+</item>
+<item name="dismantle762mmHP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle762mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="762mmHPDismantle" />
+    </property>
+</item>
+<item name="dismantle762mmHPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle762mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="762mmHPBundleDismantle" />
+    </property>
+</item>
+<item name="dismantle762mmAP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle762mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="762mmAPDismantle" />
+    </property>
+</item>
+<item name="dismantle762mmAPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantle762mmBullets" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="762mmAPBundleDismantle" />
+    </property>
+</item>
+<!-- 7.62mm -->
+<!-- Blunderbuss -->
+<item name="dismantleBlunderbuss">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoBlunderbuss" />
+	<property name="CustomIconTint" value="00ff00"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BlunderbussDismantle" />
+    </property>
+</item>
+<item name="dismantleBlunderbussBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoBlunderbuss" />
+	<property name="CustomIconTint" value="00ff00"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BlunderbussBundleDismantle" />
+    </property>
+</item>
+<!-- Blunderbuss -->
+<!-- Shotgun -->
+<item name="dismantleShotgunShell">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleShotgunShells" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ShotgunShellDismantle" />
+    </property>
+</item>
+<item name="dismantleShotgunShellBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleShotgunShells" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ShotgunShellBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleShotgunSlug">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleShotgunShells" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ShotgunSlugDismantle" />
+    </property>
+</item>
+<item name="dismantleShotgunSlugsBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleShotgunShells" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ShotgunSlugsBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleShotgunBreachingSlug">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleShotgunShells" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ShotgunBreachingSlugDismantle" />
+    </property>
+</item>
+<item name="dismantleShotgunBreachingSlugBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleShotgunShells" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ShotgunBreachingSlugBundleDismantle" />
+    </property>
+</item>
+<!-- Shotgun -->
+<!-- Junk Turret -->
+<item name="dismantleJunkTurret">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoJunkTurret" />
+	<property name="CustomIconTint" value="ff9f9f"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="JunkTurretDismantle" />
+    </property>
+</item>
+<!-- Junk Turret -->
+<!-- Bow -->
+<item name="dismantleArrowFlaming">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowFlaming" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowFlamingDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowFlamingBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowFlaming" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowFlamingBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowExploding">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowExploding" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowExplodingDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowExplodingBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowExploding" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowExplodingBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowIron">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowIron" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowIronDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowIronBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowIron" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowIronBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowSteelAP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowSteelAP" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowSteelAPDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowSteelAPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowSteelAP" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowSteelAPBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowStone">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowStone" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowStoneDismantle" />
+    </property>
+</item>
+<item name="dismantleArrowStoneBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoArrowStone" />
+	<property name="CustomIconTint" value="ffffa0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="ArrowStoneBundleDismantle" />
+    </property>
+</item>
+<!-- Bow -->
+<!-- Crossbow -->
+<item name="dismantleBoltFlaming">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltFlaming" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltFlamingDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltFlamingBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltFlaming" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltFlamingBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltExploding">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltExploding" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltExplodingDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltExplodingBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltExploding" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltExplodingBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltIron">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltIron" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltIronDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltIronBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltIron" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltIronBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltSteelAP">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltSteelAP" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltSteelAPDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltSteelAPBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltSteelAP" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltSteelAPBundleDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltStone">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltStone" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltStoneDismantle" />
+    </property>
+</item>
+<item name="dismantleBoltStoneBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoCrossbowBoltStone" />
+	<property name="CustomIconTint" value="b0b0ff"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BoltStoneBundleDismantle" />
+    </property>
+</item>
+<!-- Crossbow -->
+<!-- DartGun -->
+<item name="dismantleDartIron">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoDartIron" />
+	<property name="CustomIconTint" value="00ff00"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="DartIronDismantle" />
+    </property>
+</item>
+<!-- DartGun -->
+<!-- Rocket Launcher -->
+<item name="dismantleRocketFrag">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+	<property name="CustomIconTint" value="ff8080"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="RocketFragDismantle" />
+    </property>
+</item>
+<item name="dismantleRocketHE">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+	<property name="CustomIconTint" value="ff8080"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="RocketHEDismantle" />
+    </property>
+</item>
+<!-- Rocket Launcher -->
+<!-- Explosives -->
+<item name="dismantleMolotovCocktail">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownAmmoMolotovCocktail" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="MolotovCocktailDismantle" />
+    </property>
+</item>
+<item name="dismantlePipeBomb">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownAmmoPipeBomb" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="PipeBombDismantle" />
+    </property>
+</item>
+<item name="dismantleGrenade">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownGrenade" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="GrenadeDismantle" />
+    </property>
+</item>
+<item name="dismantleGrenadeContact">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownGrenadeContact" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="GrenadeContactDismantle" />
+    </property>
+</item>
+<item name="dismantleTimedCharge">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownTimedCharge" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="TimedChargeDismantle" />
+    </property>
+</item>
+<item name="dismantleDynamite">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownDynamite" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="DynamiteDismantle" />
+    </property>
+</item>
+<!-- Explosives -->
+</append>
+</stallionsden>

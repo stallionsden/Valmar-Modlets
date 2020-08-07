@@ -1,0 +1,55 @@
+<Valmar>
+<append xpath="/items">
+<item name="classKey">
+		<property name="Extends" value="resourceLockPick"/>
+       <property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="Weight" value="5"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="SellableToTrader" value="true"/>
+	<property name="EconomicValue" value="100"/>
+	<property class="Action0">
+            <!-- UseAction -->
+        	<property name="Class" value="Repair"/>
+		<property name="Delay" value=".73"/> <!-- Repair actions still need the delay amount -->
+		<property name="Repair_amount" value="100"/>
+		<property name="Upgrade_hit_offset" value="-5"/>
+		<property name="Repair_action_sound" value="nailgun_fire"/>
+		<property name="Upgrade_action_sound" value="nailgun_fire"/>
+		<property name="Allowed_upgrade_items" value="classKey"/>
+        </property>
+		<effect_group name="classKey">
+		<passive_effect name="BlockDamage" operation="base_set" value="32.2"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="20"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="0.9" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="75,200" tier="1,6" />
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" />
+		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="100" tier="1,6"/> <!-- tier bonus -->
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps,Basics"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+        </item>
+    <item name="classSelection">
+        <property name="DescriptionKey" value="classSelectionDesc"/>
+        <property name="Meshfile" value="Items/Misc/Book" />
+        <property name="Material" value="Mpaper" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="50" />
+        <property name="FuelValue" value="20" />
+        <property name="Weight" value="20" />
+        <property name="Group" value="Special Items" />
+        <property class="Preview">
+            <property name="Zoom" value="10" />
+            <property name="Pos" value="0,-0.2" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+        </item>
+		</append>
+</Valmar>

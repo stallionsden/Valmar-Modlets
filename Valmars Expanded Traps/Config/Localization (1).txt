@@ -1,0 +1,13 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+trapFire,blocks,Traps,,Fire Trap,,
+trapFireDesc,blocks,Traps,,This trap sets whatever walks over it on fire. When it goes out you can refill it using gasoline.,,
+trapAdhesive,blocks,Traps,,Adhesive Trap,,
+trapAdhesiveDesc,blocks,Traps,,This trap doesn't deal damage but will slow any enemy that walks over it.,,
+trapAdhesiveSpike,blocks,Traps,,Adhesive Spike,,
+trapAdhesiveSpikeDesc,blocks,Traps,,This logspike has been coated with adhesive to make enemies move slower when the try to cross it.,,
+minersTNT,blocks,Traps,,Miner's TNT,,
+minersTNTDesc,blocks,Traps,,This TNT was specially crafted by a miner to ensure optimum block damage.,,
+trapSteelSpike,blocks,Traps,,Steel Spike,,
+trapSteelFireSpike,blocks,Traps,,Steel Fire Spike,,
+trapNailMine,blocks,Traps,,Nail Mine,,
+trapNailMineDesc,blocks,Traps,,This trap deals damage to anyone who triggers it but doesn't deal any damage to surrounding blocks.,,

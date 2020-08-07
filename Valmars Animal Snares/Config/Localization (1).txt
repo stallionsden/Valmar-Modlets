@@ -1,0 +1,6 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+recipebookAnimalTrapsDesc,items,Item Book,,This book teaches you how to make animal snares and chicken coops.,,
+chickenCoop,blocks,Traps,,Chicken Coop,,
+chickenCoopDesc,blocks,Traps,,Place this outside and wait for it attract a chicken to build a nest or destroy the block to kill the attracted chicken to get meat.,,
+animalSnare,blocks,Traps,,Animal Snare,,
+animalSnareDesc,blocks,Traps,,Place this outside and wait for it to spring up and catch an animal.,,

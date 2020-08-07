@@ -66,7 +66,7 @@
     <ingredient name="ammoGasCan" count="6" />
 	<ingredient name="meleeWpnBatonT2StunBatonParts" count="4"/>
 </recipe>
-<recipe name="trapFire" count="2" scrapable="False" tags="learnable" >      
+<recipe name="trapFireEmpty" count="2" scrapable="False" tags="learnable" >      
     <ingredient name="resourceForgedSteel" count="8" />
     <ingredient name="toolCookingGrill" count="1" />
     <ingredient name="ammoGasCan" count="1" />

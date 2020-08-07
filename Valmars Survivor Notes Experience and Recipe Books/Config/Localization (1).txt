@@ -1,0 +1,5 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+survivorNotes,items,Item Tool,,Survivor Notes,,
+survivorNotesDesc,items,Item Tool,,Gather enough of these to craft skill books at the Study Desk.,,
+studyDesk,blocks,Block Building,,Study Desk,,
+studyDeskDesc,blocks,Block Building,,This workstation is used for turning your Survivor Notes into recipe books.,,
