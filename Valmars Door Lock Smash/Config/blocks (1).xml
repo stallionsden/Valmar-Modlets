@@ -1,0 +1,118 @@
+<Valmar>	
+	<append xpath="/blocks/block[@name='commercialDoor1_v1']">
+	 <property name="DowngradeBlock" value="Busted Commercial Door" />
+	</append>
+	
+	<append xpath="/blocks/block[@name='commercialDoor2_v1']">
+	 <property name="DowngradeBlock" value="Smashed Commercial Door" />
+	</append>
+	
+	<append xpath="/blocks/block[@name='commercialDoor4_v1']">
+	 <property name="DowngradeBlock" value="Wrecked Commercial Door" />
+	</append> 
+ 
+ <append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+	 <property name="DowngradeBlock" value="Damaged Door" />
+	</append>
+	
+	<append xpath="/blocks/block[@name='houseFrontDoor2_v1']">
+	 <property name="DowngradeBlock" value="Broken Door" />
+	</append>
+	  
+ <append xpath="/blocks">
+    <!-- DoorBuster -->
+<block name="Busted Commercial Door"><!-- 1164-->
+        <property name="MaxDamage" value="150" />
+        <property name="Class" value="Door" />
+        <property name="CustomIcon" value="commercialDoor1_v1" />
+        <property name="Material" value="Mmetal" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Texture" value="282" />
+        <property name="Tag" value="Door" />
+        <property name="MultiBlockDim" value="1,2,1" />
+        <property name="Place" value="Door" />
+        <property name="Model" value="Entities/Doors/commercial_door_1_v1Prefab" />
+		<property name="ModelOffset" value="0,0,0"/>
+        <property name="Mesh-Damage-1" value="Door/Door_DMG0" />
+        <property name="Mesh-Damage-2" value="Door/Door_DMG1" />
+        <property name="Mesh-Damage-3" value="Door/Door_DMG2" />
+        <property name="Mesh-Damage-4" value="Door/Door_DMG3" />
+        <property name="Mesh-Damage-5" value="Door/Door_DMG4" />
+        <property name="OpenSound" value="UseActions/open_door_metal" />
+        <property name="CloseSound" value="UseActions/close_door_metal" />
+	  <property class="UpgradeBlock">
+            <property name="ToBlock" value="commercialDoor1_v1" />
+            <property name="Item" value="resourceScrapIron" />
+            <property name="ItemCount" value="4" />
+            <property name="UpgradeHitCount" value="2" />
+        </property>
+        <property class="RepairItems"> <property name="resourceWood" value="10" /> </property>
+        <drop event="Destroy" name="resourceScrapIron" count="4" prob="1" />
+        <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance=".75" />
+        <property name="Group" value="Building,advBuilding" />
+</block>
+<block name="Smashed Commercial Door"><!-- 1167-->
+        <property name="Extends" value="Busted Commercial Door" />
+        <property name="CustomIcon" value="commercialDoor2_v1" />
+        <property name="Model" value="Entities/Doors/commercial_door_2_v1Prefab" />
+		<property name="ModelOffset" value="0,0,0"/>
+		<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
+        <property class="UpgradeBlock">
+            <property name="ToBlock" value="commercialDoor2_v1" />
+			<property name="Item" value="resourceScrapIron"/>
+        </property>
+</block>
+<block name="Wrecked Commercial Door"><!--1173-->
+        <property name="Extends" value="Busted Commercial Door" />
+        <property name="CustomIcon" value="commercialDoor4_v1" />
+        <property name="Model" value="Entities/Doors/commercial_door_4_v1Prefab" />
+		<property name="ModelOffset" value="0,0,0"/>
+		<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
+        <property class="UpgradeBlock">
+            <property name="ToBlock" value="commercialDoor4_v1" />
+			<property name="Item" value="resourceScrapIron"/>
+        </property>
+</block>
+<block name="Damaged Door"><!--1176 -->
+        <property name="MaxDamage" value="100" />
+        <property name="Class" value="Door" />
+        <property name="CustomIcon" value="houseFrontDoor1_v1" />
+        <property name="Material" value="Mwood" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Texture" value="241" />
+        <property name="Tag" value="Door" />
+        <property name="MultiBlockDim" value="1,2,1" />
+        <property name="Place" value="Door" />
+        <property name="Model" value="Entities/Doors/house_frontDoor1_v1Prefab" />
+		<property name="ModelOffset" value="0,0,0"/>
+        <property name="Mesh-Damage-1" value="Door/Door_DMG0" />
+        <property name="Mesh-Damage-2" value="Door/Door_DMG1" />
+        <property name="Mesh-Damage-3" value="Door/Door_DMG2" />
+        <property name="Mesh-Damage-4" value="Door/Door_DMG3" />
+        <property name="Mesh-Damage-5" value="Door/Door_DMG4" />
+        <property name="OpenSound" value="UseActions/open_door_wood" />
+        <property name="CloseSound" value="UseActions/close_door_wood" />
+		 <property class="UpgradeBlock">
+            <property name="ToBlock" value="houseFrontDoor1_v1" />
+            <property name="Item" value="resourceScrapIron"/>
+            <property name="ItemCount" value="5" />
+            <property name="UpgradeHitCount" value="2" />
+        </property>
+		<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
+        <drop event="Harvest" name="wood" count="2" prob="1" />
+        <drop event="Destroy" count="0" />
+        <property name="Group" value="Building,advBuilding" />
+</block>
+<block name="Broken Door"><!--1226 -->
+        <property name="Extends" value="Damaged Door" />
+        <property name="CustomIcon" value="houseFrontDoor2_v1" />
+        <property name="Model" value="Entities/Doors/house_frontDoor2_v1Prefab" />
+		<property name="ModelOffset" value="0,0,0"/>
+		<property class="RepairItems"> <property name="resourceWood" value="2"/> </property>
+        <property class="UpgradeBlock">
+            <property name="ToBlock" value="houseFrontDoor2_v1" />
+			<property name="Item" value="resourceScrapIron"/>
+        </property>
+</block>
+		</append>		
+</Valmar>

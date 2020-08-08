@@ -1,0 +1,80 @@
+<Valmar>
+<!-- LOOT GROUPS -->
+<append xpath="/lootcontainers/lootgroup[@name='workbenchLoot']" >
+	 <item name="trapGasCan" count="1,5" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='forgeLoot']" >
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='cementMixerLoot']" >
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='chemistryStationLoot']" >
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>	
+<append xpath="/lootcontainers/lootgroup[@name='junk']" >
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='garbage']" >
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='automotive']" >
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='rareTools']" >
+	 <item name="gunTrapNailgun" count="1" prob="0.18" />
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='workingStiffs']" >
+	 <item name="gunTrapNailgun" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootgroup[@name='labEquipment']" >
+	 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+	<!-- LOOT GROUPS -->
+	<!-- LOOTCONTAINERS -->
+<append xpath="/lootcontainers/lootcontainer[@id='10']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>	
+<append xpath="/lootcontainers/lootcontainer[@id='16']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='19']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='40']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='53']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='54']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='64']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='83']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+		 <item name="gunTrapNailgun" count="1" prob="0.18" />
+		 <item name="trapFire" count="1,3" prob="0.18" />
+		 <item name="trapAdhesive" count="1,3" prob="0.18" />
+		 <item name="trapAdhesiveSpike" count="1,3" prob="0.18" />
+		 <item name="minersTNT" count="1,3" prob="0.18" />
+		 <item name="trapSteelFireSpike" count="1,3" prob="0.18" />
+		 <item name="trapNailMine" count="1,3" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='88']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='90']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<append xpath="/lootcontainers/lootcontainer[@id='124']" >
+		 <item name="trapGasCan" count="1" prob="0.18" />
+	</append>
+<!-- LOOTCONTAINERS --> 
+</Valmar>

@@ -1,0 +1,17 @@
+<Valmar>
+<append xpath="/items">
+ <!--Survivor Note Mod-->   
+    <item name="survivorNotes">
+        <property name="CustomIcon" value="resourcePaper" />
+        <property name="CustomIconTint" value="E30000" />
+        <property name="DescriptionKey" value="survivorNotesDesc"/>
+        <property name="Meshfile" value="Items/Misc/paper" />
+        <property name="HoldType" value="21" />
+        <property name="Material" value="Mpaper" />
+        <property name="Weight" value="1" />
+        <property name="Stacknumber" value="5000" />
+        <property name="FuelValue" value="20" />
+        <property name="Group" value="Survival" />
+    </item>
+</append>
+</Valmar>

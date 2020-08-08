@@ -1,0 +1,21 @@
+<Valmar>
+<append xpath="/recipes">
+    <recipe name="animalFeed" count="1" scrapable="False" >
+  <ingredient name="foodCropPumpkin" count="3" />
+    </recipe>
+    <recipe name="animalFeed" count="1" scrapable="False" >
+  <ingredient name="foodCropCorn" count="3" />
+    </recipe>
+    <recipe name="animalSnare" count="1" scrapable="False">
+        <ingredient name="resourceWood" count="5"/>
+        <ingredient name="resourceYuccaFibers" count="6" />
+        <ingredient name="animalFeed" count="2" />
+    </recipe>
+    <recipe name="chickenCoop" count="1" scrapable="False">
+        <ingredient name="resourceWood" count="10"/>
+        <ingredient name="resourceYuccaFibers" count="15" />
+        <ingredient name="animalFeed" count="2" />
+
+        </recipe>
+</append>
+</Valmar>

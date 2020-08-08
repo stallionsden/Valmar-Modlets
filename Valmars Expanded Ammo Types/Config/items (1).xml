@@ -1,0 +1,190 @@
+<Valmar>
+<append xpath="/items">
+        <!-- Expanded Ammunition Types -->
+		<item name="9mmBulletINC">
+		<property name="Extends" value="ammo9mmBulletBall"/>
+		<property name="EconomicValue" value="14"/>
+		 <property name="Stacknumber" value="250" /> 
+		  <property name="DescriptionKey" value="BulletINCDesc"/>
+		  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		 </item>
+		 <item name="44MagBulletINC">
+		 <property name="Extends" value="ammo44MagnumBulletBall"/>
+		<property name="EconomicValue" value="15"/>
+		 <property name="Stacknumber" value="250" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		<property name="DescriptionKey" value="BulletINCDesc"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</item>		 
+  	<item name="762mmBulletINC">
+		<property name="Extends" value="ammo762mmBulletBall"/>
+		<property name="EconomicValue" value="16"/>
+		 <property name="Stacknumber" value="250" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		 <property name="DescriptionKey" value="BulletINCDesc"/>
+        <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+</item>	
+    <item name="SiegeShell">
+	<property name="Tags" value="ammo,shotgun"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mlead_scrap"/>
+	<property name="Stacknumber" value="250"/> <!-- STK ammo low -->
+	<property name="EconomicValue" value="20"/>
+	<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+	<property name="DescriptionKey" value="SiegeShellDesc"/>
+     <effect_group name="ammoShotgunBreachingSlug" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="150"/>
+		<passive_effect name="BlockDamage" operation="base_add" value="1000" tags="door,wood"/>
+			<display_value name="dDamageDoor" value="1000"/>
+		<passive_effect name="RoundRayCount" operation="base_set" value="1"/>
+		<passive_effect name="MaxRange" operation="base_set" value="4"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="1"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.4"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.4"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.35"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+	</effect_group>
+</item>	
+  	<item name="shotgunShellINC">
+		<property name="Tags" value="ammo,shotgun"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mlead_scrap"/>
+		<property name="Stacknumber" value="250"/> <!-- STK ammo low -->
+		<property name="EconomicValue" value="20"/>
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="DescriptionKey" value="ShotgunShellINCDesc"/>
+        <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="RoundRayCount" operation="base_set" value="1"/>
+				<passive_effect name="MaxRange" operation="base_set" value="4"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="1"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.4"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.4"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.35"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+</item>	
+ 	<item name="blunderbussAmmoShredder">
+		<property name="Tags" value="ammo,shotgun"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mpaper"/>
+		<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
+		<property name="Group" value="Ammo/Weapons"/>
+		<property name="EconomicValue" value="5"/>
+		<property name="DescriptionKey" value="BlunderbussShredderDesc"/>
+        <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="15"/>
+				<passive_effect name="RoundRayCount" operation="base_set" value="8"/>
+				<passive_effect name="TargetArmor" operation="perc_add" value=".4"/><display_value name="dTargetArmor" value=".4"/>
+				<passive_effect name="DismemberChance" operation="perc_add" value="-.875"/>
+				<passive_effect name="MaxRange" operation="base_set" value="15"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="2"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</item>	
+ <item name="HollowTip">
+        <property name="Extends" value="resourceBulletTip" />
+        <property name="DescriptionKey" value="HollowTipDesc"/>
+    </item>
+</append>
+
+<append xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,9mmBulletINC</append>
+<append xpath="/items/item[@name='ammoBundle44MagnumBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,44MagBulletINC</append>
+<append xpath="/items/item[@name='ammoBundle762mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">,762mmBulletINC</append>
+<append xpath="/items/item[@name='ammoBundleShotgunSlug']/property[@class='Action0']/property[@name='Create_item']/@value">,shotgunShellINC,SiegeShell</append>
+<append xpath="/items/item[@name='ammoBundleBlunderbuss']/property[@class='Action0']/property[@name='Create_item']/@value">,blunderbussAmmoShredder</append>
+
+<append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletINC</append>
+<append xpath="/items/item[@name='gun44Magnum']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44MagBulletINC</append>
+<append xpath="/items/item[@name='gunSMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP</append>
+<append xpath="/items/item[@name='gunBlunderbuss']/property[@class='Action0']/property[@name='Magazine_items']/@value">,blunderbussAmmoShredder</append>
+<append xpath="/items/item[@name='gunDoubleBarrelShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,shotgunShellINC,SiegeShell</append>
+<append xpath="/items/item[@name='gunPumpShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,shotgunShellINC,SiegeShell</append>
+<append xpath="/items/item[@name='gunHuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletINC</append>
+<append xpath="/items/item[@name='gunMR10']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletINC</append>
+<append xpath="/items/item[@name='gunAK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletINC</append>
+<append xpath="/items/item[@name='gunTacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletINC</append>
+<append xpath="/items/item[@name='gunM60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762mmBulletINC</append>
+</Valmar>

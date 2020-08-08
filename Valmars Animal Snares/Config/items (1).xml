@@ -1,0 +1,25 @@
+<Valmar>
+<append xpath="/items">
+<item name="animalFeed">
+        <property name="DescriptionKey" value="animalFeedDesc"/>
+        <property name="Meshfile" value="Items/Food/seed_blueberry" />
+        <property name="Material" value="Morganic" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="200" />
+        <property name="Group" value="Resources" />
+        <property class="Preview">
+            <property name="Zoom" value="35" />
+            <property name="Pos" value="0,-0.05" />
+            <property name="Rot" value="90,45,0" />
+        </property>
+    </item>
+	
+	<item id="2015" name="recipebookAnimalTraps">
+		<property name="DescriptionKey" value="recipebookAnimalTrapsDesc"/>
+		<property name="Extends" value="schematicMaster" />
+		<property class="Action0">
+			<property name="Recipes_to_learn" value="animalSnare,chickenCoop" />
+		</property>
+	</item>
+</append>
+</Valmar>

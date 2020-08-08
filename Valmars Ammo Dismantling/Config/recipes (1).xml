@@ -1,0 +1,194 @@
+<stallionsden>
+<append xpath="/recipes">
+<!-- 9mm -->
+<recipe name="dismantle9mmBall" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo9mmBulletBall" count="10"/>
+</recipe>
+<recipe name="dismantle9mmBallBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle9mmBulletBall" count="10"/>
+</recipe>
+<recipe name="dismantle9mmHP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo9mmBulletHP" count="10"/>
+</recipe>
+<recipe name="dismantle9mmHPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle9mmBulletHP" count="10"/>
+</recipe>
+<recipe name="dismantle9mmAP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo9mmBulletAP" count="10"/>
+</recipe>
+<recipe name="dismantle9mmAPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle9mmBulletAP" count="10"/>
+</recipe>
+<!-- 9mm -->
+<!-- 44 Mag -->
+<recipe name="dismantle44MagBall" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo44MagnumBulletBall" count="10"/>
+</recipe>
+<recipe name="dismantle44MagBallBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle44MagnumBulletBall" count="10"/>
+</recipe>
+<recipe name="dismantle44MagHP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo44MagnumBulletHP" count="10"/>
+</recipe>
+<recipe name="dismantle44MagHPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle44MagnumBulletHP" count="10"/>
+</recipe>
+<recipe name="dismantle44MagAP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo44MagnumBulletAP" count="10"/>
+</recipe>
+<recipe name="dismantle44MagAPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle44MagnumBulletAP" count="10"/>
+</recipe>
+<!-- 44 Mag -->
+<!-- 7.62mm -->
+<recipe name="dismantle762mmBall" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo762mmBulletBall" count="10"/>
+</recipe>
+<recipe name="dismantle762mmBallBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle762mmBulletBall" count="10"/>
+</recipe>
+<recipe name="dismantle762mmHP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo762mmBulletHP" count="10"/>
+</recipe>
+<recipe name="dismantle762mmHPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle762mmBulletHP" count="10"/>
+</recipe>
+<recipe name="dismantle762mmAP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo762mmBulletAP" count="10"/>
+</recipe>
+<recipe name="dismantle762mmAPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundle762mmBulletAP" count="10"/>
+</recipe>
+<!-- 7.62mm -->
+<!-- Blunderbuss -->
+<recipe name="dismantleBlunderbuss" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBlunderbuss" count="10"/>
+</recipe>
+<recipe name="dismantleBlunderbussBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleBlunderbuss" count="10"/>
+</recipe>
+<!-- Blunderbuss -->
+<!-- Shotgun -->
+<recipe name="dismantleShotgunShell" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoShotgunShell" count="10"/>
+</recipe>
+<recipe name="dismantleShotgunShellBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleShotgunShell" count="10"/>
+</recipe>
+<recipe name="dismantleShotgunSlug" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoShotgunSlug" count="10"/>
+</recipe>
+<recipe name="dismantleShotgunSlugsBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleShotgunSlug" count="10"/>
+</recipe>
+<recipe name="dismantleShotgunBreachingSlug" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoShotgunBreachingSlug" count="10"/>
+</recipe>
+<recipe name="dismantleShotgunBreachingSlugBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleShotgunBreachingSlug" count="10"/>
+</recipe>
+<!-- Shotgun -->
+<!-- Junk Turret -->
+<recipe name="dismantleJunkTurret" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoJunkTurret" count="10"/>
+</recipe>
+<!-- Junk Turret -->
+<!-- Bows -->
+<recipe name="dismantleArrowFlaming" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowFlaming" count="10"/>
+</recipe>
+<recipe name="dismantleArrowFlamingBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleArrowFlaming" count="10"/>
+</recipe>
+<recipe name="dismantleArrowExploding" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowExploding" count="10"/>
+</recipe>
+<recipe name="dismantleArrowExplodingBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleArrowExploding" count="10"/>
+</recipe>
+<recipe name="dismantleArrowIron" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowIron" count="10"/>
+</recipe>
+<recipe name="dismantleArrowIronBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleArrowIron" count="10"/>
+</recipe>
+<recipe name="dismantleArrowSteelAP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowSteelAP" count="10"/>
+</recipe>
+<recipe name="dismantleArrowSteelAPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleArrowSteelAP" count="10"/>
+</recipe>
+<recipe name="dismantleArrowStone" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowStone" count="10"/>
+</recipe>
+<recipe name="dismantleArrowStoneBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleArrowStone" count="10"/>
+</recipe>
+<!-- Bows -->
+<!-- CrossBow -->
+<recipe name="dismantleBoltFlaming" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltFlaming" count="10"/>
+</recipe>
+<recipe name="dismantleBoltFlamingBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleCrossbowBoltFlaming" count="10"/>
+</recipe>
+<recipe name="dismantleBoltExploding" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltExploding" count="10"/>
+</recipe>
+<recipe name="dismantleBoltExplodingBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleCrossbowBoltExploding" count="10"/>
+</recipe>
+<recipe name="dismantleBoltIron" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltIron" count="10"/>
+</recipe>
+<recipe name="dismantleBoltIronBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleCrossbowBoltIron" count="10"/>
+</recipe>
+<recipe name="dismantleBoltSteelAP" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltSteelAP" count="10"/>
+</recipe>
+<recipe name="dismantleBoltSteelAPBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleCrossbowBoltSteelAP" count="10"/>
+</recipe>
+<recipe name="dismantleBoltStone" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltStone" count="10"/>
+</recipe>
+<recipe name="dismantleBoltStoneBundle" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleCrossbowBoltStone" count="10"/>
+</recipe>
+<!-- CrossBow -->
+<!-- DartGun -->
+<recipe name="dismantleDartIron" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoJunkTurret" count="10"/>
+</recipe>
+<!-- DartGun -->
+<!-- Rocket Launcher -->
+<recipe name="dismantleRocketFrag" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoRocketFrag" count="10"/>
+</recipe>
+<recipe name="dismantleRocketHE" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoRocketHE" count="10"/>
+</recipe>
+<!-- Rocket Launcher -->
+<!-- Explosives -->
+<recipe name="dismantleMolotovCocktail" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="thrownAmmoMolotovCocktail" count="10"/>
+</recipe>
+<recipe name="dismantlePipeBomb" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="thrownAmmoPipeBomb" count="10"/>
+</recipe>
+<recipe name="dismantleGrenade" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="thrownGrenade" count="10"/>
+</recipe>
+<recipe name="dismantleGrenadeContact" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="thrownGrenadeContact" count="10"/>
+</recipe>
+<recipe name="dismantleTimedCharge" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="thrownTimedCharge" count="10"/>
+</recipe>
+<recipe name="dismantleDynamite" count="10" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="thrownDynamite" count="10"/>
+</recipe>
+<!-- Explosives -->
+</append>
+</stallionsden>

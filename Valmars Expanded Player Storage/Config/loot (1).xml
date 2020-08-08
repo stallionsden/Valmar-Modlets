@@ -1,0 +1,21 @@
+<Valmar>
+<append xpath="/lootcontainers">
+ <!-- Expanded Player Storage -->
+    <lootcontainer id="413" size="10,9" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case">
+    </lootcontainer>
+    <lootcontainer id="414" size="10,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest">
+    </lootcontainer>   
+    <lootcontainer id="415" size="10,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard">
+    </lootcontainer>   
+    <lootcontainer id="416" size="10,9" sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet">
+    </lootcontainer>
+    <lootcontainer id="417" size="10,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge">
+    </lootcontainer>   
+    <lootcontainer id="418" size="10,9" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker">
+    </lootcontainer>
+    <lootcontainer id="419" size="10,9" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer">
+    </lootcontainer>
+    <lootcontainer id="420" size="10,9" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler">
+    </lootcontainer>           
+  </append>
+</Valmar>

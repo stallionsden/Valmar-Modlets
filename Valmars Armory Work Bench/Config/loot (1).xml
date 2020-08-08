@@ -1,0 +1,53 @@
+<Valmar>
+<append xpath="/lootcontainers/lootgroup[@name='rareTools']">	
+		<item name="weldingTorch" count="1" />
+</append>
+
+<append xpath="/lootcontainers/lootgroup[@name='workingStiffs']">	
+		<item name="weldingTorch" count="1" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='automotive']">	
+		<item name="weldingTorch" count="1" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='groupApparelClothes']">	
+		<item name="sewingKit" count="1" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='junk']">	
+		<item name="sewingKit" count="1" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='sportingGoods']">	
+		<item name="sewingKit" count="1" />
+</append>
+<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">	
+		<item name="sewingKit" count="1" />
+</append>
+
+<append xpath="/lootcontainers/lootcontainer[@id='6']">	
+		<item name="sewingKit" count="1,5" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='19']">	
+		<item name="weldingTorch" count="1" />
+		<item name="sewingKit" count="1,5" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='22']">	
+		<item name="weldingTorch" count="1" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='54']">	
+		<item name="weldingTorch" count="1" />
+		<item name="sewingKit" count="1,5" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='58']">	
+		<item name="weldingTorch" count="1" />
+		<item name="sewingKit" count="1,5" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='88']">	
+		<item name="weldingTorch" count="1" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='117']">	
+		<item name="weldingTorch" count="1" />
+</append>
+<append xpath="/lootcontainers/lootcontainer[@id='124']">	
+		<item name="weldingTorch" count="1" />
+</append>
+</Valmar>
+

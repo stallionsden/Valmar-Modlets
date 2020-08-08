@@ -1,0 +1,27 @@
+<stallionsden>
+<append xpath="/buffs">
+<buff name="buffWhisperer" icon="ui_game_symbol_skull" icon_color="87,87,87" hidden="false">
+<stack_type value="ignore"/>
+<duration value="0"/>
+<effect_group>
+
+<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="120"><requirement name="CVarCompare" target="self" cvar="whispererSet" operation="GTE" value="5"/></passive_effect>
+<passive_effect name="LightMultiplier" operation="perc_subtract" value="300"><requirement name="CVarCompare" target="self" cvar="whispererSet" operation="GTE" value="5"/></passive_effect>
+
+<display_value name="dNoiseMultiplier" value="120"/>
+<display_value name="dLightMultiplier" value="300"/>
+
+<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffWhisperer"><requirement name="CVarCompare" target="self" cvar="whispererSet" operation="LTE" value="0"/></triggered_effect>
+</effect_group>
+</buff>
+
+<buff name="buffAntiWhisperer" icon="ui_game_symbol_oxygen" icon_color="180,0,25" hidden="false">
+<stack_type value="replace"/>
+<duration value="60"/>
+<effect_group>
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffWhisperer"/>
+<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffWhisperer"/>
+</effect_group>
+</buff>
+</append>
+</stallionsden>

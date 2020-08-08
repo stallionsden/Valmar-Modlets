@@ -1,0 +1,14 @@
+<stallionsden>
+		<append xpath="/recipes">
+			 <recipe name="stripsClingwrap" count="7" scrapable="False" >
+  <ingredient name="Clingwrap" count="1" />
+</recipe>
+	<recipe name="foodRawMeat" count="1" scrapable="False" >
+  <ingredient name="sealedMeat" count="1" />
+</recipe>
+	<recipe name="sealedMeat" count="1" scrapable="False" craft_time="0.1" >
+  <ingredient name="foodRawMeat" count="1" />
+  <ingredient name="stripsClingwrap" count="1" />
+</recipe>
+		</append>
+</stallionsden>
