@@ -12,6 +12,7 @@
         </property>
         <drop event="Destroy" count="0" prob="1" />
         <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />
+		<property name="UnlockedBy" value="trapSchematic"/>
         </block>
     <block name="trapFire">
           <property name="DescriptionKey" value="trapFireDesc"/>
@@ -25,8 +26,7 @@
         <drop event="Destroy" count="0" prob="1" />
         <drop event="Fall" name="scrapMetalPile" count="1" prob="1.0"  stick_chance="1" />
         <property name="Group" value="Tools/Traps" />
-		<property name="UnlockedBy" value="trapSchematic"/>
-    </block>
+		 </block>
     <block name="trapAdhesiveKnockdown">
 		<property name="CustomIcon" value="trapAdhesiveSpike"/>
 		<property name="CustomIconTint" value="4040ff"/>

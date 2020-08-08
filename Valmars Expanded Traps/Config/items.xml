@@ -82,11 +82,11 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="DescriptionKey" value="trapSchematicDesc"/>
 	<property name="CustomIcon" value="macDyverBook"/>
-	<property name="Unlocks" value="gunTrapNailgun,trapGasCan,trapFire,trapAdhesiveKnockdown,trapAdhesiveShocked,trapAdhesiveBurning,trapAdhesiveStunned,pressureplateLongtrapAdhesiveKnockdown,pressureplateLongtrapAdhesiveShocked,pressureplateLongtrapAdhesiveBurning,pressureplateLongtrapAdhesiveStunned,trapAdhesiveKnockdownSpike,trapAdhesiveShockedSpike,trapAdhesiveBurningSpike,trapAdhesiveStunnedSpike,minersTNT,trapSteelFireSpike,trapNailMine"/>
+	<property name="Unlocks" value="gunTrapNailgun,trapGasCan,trapFireEmpty,trapAdhesiveKnockdown,trapAdhesiveShocked,trapAdhesiveBurning,trapAdhesiveStunned,pressureplateLongtrapAdhesiveKnockdown,pressureplateLongtrapAdhesiveShocked,pressureplateLongtrapAdhesiveBurning,pressureplateLongtrapAdhesiveStunned,trapAdhesiveKnockdownSpike,trapAdhesiveShockedSpike,trapAdhesiveBurningSpike,trapAdhesiveStunnedSpike,minersTNT,trapSteelFireSpike,trapNailMine"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunTrapNailgun" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapGasCan" operation="set" value="1"/>		
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapFire" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapFireEmpty" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapAdhesiveKnockdown" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapAdhesiveShocked" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapAdhesiveBurning" operation="set" value="1"/>
