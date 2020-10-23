@@ -267,9 +267,9 @@
 <recipe name="LeurreTimidAnimalChicken" count="1" scrapable="False" >
   <ingredient name="foodRottingFlesh" count="36" />
 </recipe>
-<recipe name="LeurreAnimalTemplateHostile" count="1" scrapable="False" >
+<!--<recipe name="LeurreAnimalTemplateHostile" count="1" scrapable="False" >
   <ingredient name="foodRottingFlesh" count="35" />
-</recipe>
+</recipe>-->
 <recipe name="LeurreHostileAnimalBear" count="1" scrapable="False" >
   <ingredient name="foodRottingFlesh" count="35" />
 </recipe>

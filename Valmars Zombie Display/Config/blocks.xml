@@ -1214,7 +1214,7 @@
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="CanDecorateOnSlopes" value="true"/>
-        <property name="Model" value="Entities/Animals/Stag/STAG" />
+        <property name="Model" value="Entities/Animals/Deer/animalDeerStagRagdoll" />
     <property name="PlaceAltBlockValue" value="LeurreTimidAnimalStag,LeurreTimidAnimalDoe,LeurreTimidAnimalRabbit,LeurreTimidAnimalChicken" />
 	<property name="ModelOffset" value="0,0,0"/>
     <drop event="Destroy" count="0" />
@@ -1275,7 +1275,7 @@
 		<property name="ModelOffset" value="0,0,0"/>
     <drop event="Destroy" count="0" />
   </block>  
-  <block name="LeurreAnimalTemplateHostile">
+  <!--<block name="LeurreAnimalTemplateHostile">
   <property name="CustomIcon" value="sleeperWolfAnimal" />
     <property name="Class" value="UpgradeRated" />
     <property name="UpgradeRated.ToBlock" value="air" />
@@ -1285,11 +1285,11 @@
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="CanDecorateOnSlopes" value="true"/>
-        <property name="Model" value="#Entities/Zombies?Zombies/zombieDogPrefab.prefab" />
+        <property name="Model" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll" />
     <property name="PlaceAltBlockValue" value="LeurreHostileAnimalBear,LeurreHostileAnimalZombieBear,LeurreHostileAnimalWolf,LeurreHostileAnimalCoyote,LeurreHostileAnimalDireWolf,LeurreHostileAnimalMountainLion,LeurreHostileAnimalZombieVulture,LeurreHostileAnimalZombieVultureRadiated,LeurreHostileAnimalZombieDog,LeurreHostileAnimalSnake,LeurreHostileAnimalBoar,LeurreHostileAnimalBossGrace" />
 	<property name="ModelOffset" value="0,0,0"/>
     <drop event="Destroy" count="0" />
-  </block>  
+  </block>  -->
   <block name="LeurreHostileAnimalBear">
   <property name="CustomIcon" value="sleeperWolfAnimal" />
     <property name="Class" value="UpgradeRated" />

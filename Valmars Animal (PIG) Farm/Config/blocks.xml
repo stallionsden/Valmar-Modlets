@@ -17,7 +17,7 @@
     <property name="Shape" value="ModelEntity" />
 	<property name="PhysicsBody" value="Doe"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="Model" value="Entities/Animals/Stag/STAG" />
+	<property name="Model" value="Entities/Animals/Deer/animalDeerStagRagdoll" />
 	<property name="ModelOffset" value="0,0,0"/>
     <drop event="Destroy" count="0" />
   </block>
