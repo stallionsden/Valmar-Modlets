@@ -1,7 +1,0 @@
-Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-Clingwrap,,items,Item,New,Cling wrap,,,,,
-ClingwrapDesc,,items,Item,New,You can turn clingwrap into strips to seal up raw meat to preserve it and hide the smell.,,,,,
-stripsClingwrap,,items,Item,New,strips Cling wrap,,,,,
-stripsClingwrapDesc,,items,Item,New,You can use these to seal up raw meat to preserve it and mask the smell.,,,,,
-sealedMeat,,items,Item,New,Sealed Meat,,,,,
-sealedMeatDesc,,items,Item,New,This raw meat has been sealed with clingfilm to preserve it and mask the smell.,,,,,

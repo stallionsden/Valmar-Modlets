@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <ModInfo>
-        <Name value="Valmars Auto Walls" />
-        <Description value="Build walls from one block automatically." />
-        <Author value="VALMAR" />
-        <Version value="A19" />
-    </ModInfo>
-</xml>

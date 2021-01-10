@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <ModInfo>
-        <Name value="Valmars Working Ovens and Sinks" />
-        <Description value="Adds functional player only crafted oven and sink that work." />
-        <Author value="Valmar" />
-        <Version value="A18" />
-    </ModInfo>
-</xml>

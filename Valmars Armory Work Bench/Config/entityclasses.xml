@@ -1,5 +1,0 @@
-<Valmar>
-	<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">,ArmoryWorkbenchSchematic</append>
-	<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">,ArmoryWorkbenchSchematic</append>
-	<append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">,ArmoryWorkbenchSchematic</append> 
-    </Valmar>

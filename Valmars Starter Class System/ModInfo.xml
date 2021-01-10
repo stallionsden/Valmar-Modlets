@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <ModInfo>
-        <Name value="Valmars Starter Class System" />
-        <Description value="Choose a class to start your game with." />
-        <Author value="Valmar" />
-        <Version value="A18" />
-    </ModInfo>
-</xml>

@@ -1,6 +1,0 @@
-Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-workstationOven,,blocks,Block,New,Working Oven,,,,,
-workstationOvenDesc,,blocks,Block,New,This working oven can be used to cook many different recipes without using a fuel source.,,,,,
-WorkingSinkDesc,,blocks,Block,New,This working can be used as a source of clean water. Fill your jars with water by left-clicking with them.,,,,,
-workingGranitSink,,blocks,Block,New,Granite Sink,,,,,
-workingCabinetSink,,blocks,Block,New,Cabinet Sink,,,,,

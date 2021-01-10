@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-    <ModInfo>
-        <Name value="Valmars Disable Falling Trees" />
-        <Description value="Disables trees from falling possibly killing you." />
-        <Author value="Valmar" />
-        <Version value="A18" />
-    </ModInfo>
-</xml>

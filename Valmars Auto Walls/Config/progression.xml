@@ -1,7 +1,0 @@
-<Valmar>
-<append xpath="/progression">
-<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,AutoWall:Wood,AutoWall:cobblestoneBlock,AutoWall:flagstoneBlock</append>
-<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,AutoWall:ScrapIron</append>
-<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5']/@tags">,AutoWall:Concrete</append>
-</append>
-</Valmar>

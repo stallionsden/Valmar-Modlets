@@ -1,9 +1,0 @@
-Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
-IronCrossbow,,items,Item,New,Iron Crossbow,,,,,
-IronCrossbowDesc,,items,Item,New,This crossbow deals more damage, has further range and improved durability than a normal crossbow.,,,,,
-ironBow,,items,Item,New,Iron Bow,,,,,
-ironBowDesc,,items,Item,New,This bow deals more damage, has further range and improved durability than a normal bow.,,,,,
-combatAxe,,items,Item,New,Combat Axe,,,,,
-combatAxeDesc,,items,Item,New,This axe was designed to be used as a weapon more than a tool.,,,,,
-weedCleaver,,items,Item,New,Weed Cleaver,,,,,
-weedCleaverDesc,,items,Item,New,This tool excells at clearing up glass - but not much else.,,,,,

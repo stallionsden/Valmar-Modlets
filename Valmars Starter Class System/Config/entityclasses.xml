@@ -1,5 +1,0 @@
-<Valmar>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">classKey, classSelection,keystoneBlock</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">classKey, classSelection ,keystoneBlock</set>
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">classKey, classSelection ,keystoneBlock</set>
-</Valmar>
